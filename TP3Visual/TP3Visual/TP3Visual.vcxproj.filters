@@ -15,39 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\MyControlEngine.h">
+    <ClInclude Include="Fourmis.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\MyGameEngine.h">
+    <ClInclude Include="MyControlEngine.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\MyGraphicEngine.h">
+    <ClInclude Include="MyGameEngine.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\Papillon.h">
+    <ClInclude Include="MyGraphicEngine.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\Fourmis.h">
+    <ClInclude Include="Papillon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\MyGameEngine.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\MyGraphicEngine.cpp">
+    <ClCompile Include="MyControlEngine.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\Papillon.cpp">
+    <ClCompile Include="MyGameEngine.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\Fourmis.cpp">
+    <ClCompile Include="MyGraphicEngine.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.cpp">
+    <ClCompile Include="Papillon.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\MyControlEngine.cpp">
+    <ClCompile Include="Fourmis.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
