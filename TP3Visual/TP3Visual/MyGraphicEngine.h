@@ -7,19 +7,22 @@
 
 class MyGraphicEngine:public GraphicEngine {
     
-	Square * square_;
+	std::vector<std::vector<Square> > *squares_;
 	
-    std::vector<Papillon * > *paps;
+   /* std::vector<Papillon * > *paps;
     std::vector<Fourmis * > *fourmis;
     
-    char * str;
+    char * str;*/
 public:
-    
+
+	MyGraphicEngine(std::vector<std::vector<Square> > * squares) :
+		squares_(squares){}
+	/*
     MyGraphicEngine(std::vector<Papillon * > * paps_ , std::vector <Fourmis * > *fourmis_, Square * square):
         paps(paps_),
         fourmis(fourmis_),
 		square_(square),
-    str(new char[13]{'C','l','i','c',' ','&',' ','E','n','j','o','y','\0'}){}
+    str(new char[13]{'C','l','i','c',' ','&',' ','E','n','j','o','y','\0'}){}*/
     
     virtual void Draw();
     

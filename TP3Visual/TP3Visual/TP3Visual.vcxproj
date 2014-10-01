@@ -87,6 +87,7 @@
     <ClInclude Include="MyGameEngine.h" />
     <ClInclude Include="MyGraphicEngine.h" />
     <ClInclude Include="Papillon.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Square.cpp" />
@@ -96,6 +97,7 @@
     <ClCompile Include="MyGameEngine.cpp" />
     <ClCompile Include="MyGraphicEngine.cpp" />
     <ClCompile Include="Papillon.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,7 +3,7 @@
 
 
 void MyGameEngine::idle(){
-	if (tick % 30 == 0){
+/*	if (tick % 30 == 0){
 		for (int i = 0; i < fourmis->size(); i++) 
 		{ 
 			(*fourmis)[i]->tick(); 
@@ -23,5 +23,5 @@ void MyGameEngine::idle(){
 			} 
 		} 
 	} 
-	tick++; 
+	tick++; */
 }
